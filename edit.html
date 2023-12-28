@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+        <!--  ! header start-->
+        <header class="header ">
+            <div class="header__container container">
+              <div class="header__logo__container">
+            <a href="index.html">
+                <img
+                  src="./assets/images/devjobs.svg"
+                  alt=""
+                  class="header__logo__img"
+                />
+              </div>
+            </a>
+              <div class="header__copy__box ">
+               <img src="./assets/images/Triangle Copy 2 (1).svg" 
+               alt="" class="header__copy header__copy1">
+               <img src="./assets/images/Triangle Copy.svg" 
+               alt="" class="header__copy header__copy2">
+               <img src="./assets/images/Triangle.svg"
+                alt="" class="header__copy header__copy3">
+              </div>
+              <div class="dark__mode__container">
+               <label for="check">
+                 <i class="fa-regular fa-sun header__logo__sun header__icon"></i>
+               </label>
+                <div class="dark__change__button__box">
+                  <input type="checkbox" class="dark__change__input" id="check">
+                  <label for="check" class="dark__change__label"></label>
+                </div>
+               <label for="check">
+                 <i class="fa-regular fa-moon header__logo__moon header__icon"></i>
+               </label >
+              </div>
+            </div>
+          </header>
+          <!--  ! header end-->
+
+          <div class="add__title__box">
+              <h1 class="add__main__title">Edit Job</h1>
+            </div>
+            
+        <main class="add__main wd--100 ">
+            <div class="add__main__container ">
+                <form action="" class="edit__main__form">
+                    <div class="add__form__content__box">
+                        <label for="add__form__input__id" id=" add__form__label">Jop Id:</label>
+                        <input type="text" placeholder="job id" id="add__form__input__id"
+                        class="add__form__input ">
+                    </div>
+                    <div class="add__form__content__box">
+                        <label for="add__form__input__title" id=" add__form__label">Jop Title:</label>
+                        <input type="text"  placeholder="job title"
+                         id="add__form__input__title" class="add__form__input  ">
+                    </div>
+                    <div class="add__form__content__box">
+                        <label for="add__form__input__imgUrl" id="add__form__label">Img Url:</label>
+                        <input type="text"  placeholder="img url" 
+                        id="add__form__input__imgUrl"class="add__form__input">
+                    </div>
+                    <div class="add__form__content__box">
+                        <select name="" id="add__form__select">
+                            <option >Full Time</option>
+                            <option >Part Time</option>
+                        </select>
+                    </div>
+                    <div class="add__form__content__box">
+                        <label for="add__form__input__company" id="add__form__label">Job Company:</label>
+                        <input type="text"  placeholder="job company" id="add__form__input__company"class="add__form__input">
+                    </div>
+                    <div class="add__form__content__box">
+                        <label for="add__form__input__location" id="add__form__label">Job Location:</label>
+                        <input type="text" placeholder="job location" id="add__form__input__location"class="add__form__input">
+                    </div>
+
+                    <div class="add__form__buttons__box">
+                        <a href="./index.html" class="add__form__cancel">
+                            Cancel
+                        </a>
+                        <button class="add__form__add__button">
+                            Add Jop
+                        </button>
+
+                    </div>
+                </form>
+            </div>
+
+        </main>
+        <script src="./assets/js/index.js"></script>
+</body>
+</html>
